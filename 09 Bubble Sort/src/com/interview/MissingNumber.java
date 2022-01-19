@@ -1,25 +1,25 @@
 package com.interview;
 
 public class MissingNumber {
-    public int missingNumber(int[] nums) {
+    public int missingNumber(int[] arr) {
         int i = 0 ;
-        while( i < nums.length){
-            int correct = nums[i];
-            if(nums[i] < nums.length &&  nums[i] != nums[correct]){
-                Swap(nums , i , correct);
+        while( i < arr.length){
+            int correct = arr[i];
+            if(arr[i] < arr.length && arr[i] != arr[correct]){
+                Swap(arr , i , correct);
             }else{
                 i++;
             }
         }
-        for (int j = 0; j < nums.length; j++) {
-            if(nums[j] != j){
+
+        for (int j = 0; j < arr.length; j++) {
+            if(arr[j] != j){
                 return j;
             }
         }
 
-        return nums.length ;
+        return arr.length  ;
     }
-
     static void Swap( int[] arr , int first , int second){
         int temp = arr[first];
         arr[first] = arr[second];

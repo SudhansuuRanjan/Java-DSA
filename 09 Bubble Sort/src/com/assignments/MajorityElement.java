@@ -1,4 +1,4 @@
-package com.sudhanshu;
+package com.assignments;
 
 import java.util.Arrays;
 
