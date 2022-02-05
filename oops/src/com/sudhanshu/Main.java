@@ -11,7 +11,6 @@ public class Main {
         Student1.marks = (float) 8.56;
 
         Student1.show();
-
     }
 
     static class Student{
