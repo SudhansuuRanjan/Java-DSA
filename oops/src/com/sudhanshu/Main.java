@@ -1,5 +1,7 @@
 package com.sudhanshu;
 
+import static com.sudhanshu.WrapperExample.message;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -11,7 +13,7 @@ public class Main {
         Student1.marks = (float) 8.56;
 
         Student1.show();
-
+        message();
     }
 
     static class Student{
