@@ -22,6 +22,9 @@ public class main {
         list3.insertLast(2);
         list3.insertLast(1);
         list3.display();
-        list3.palindromeCheck();
+//        list3.palindromeCheck();
+        list3.delete(2);
+        list3.display();
+
     }
 }
